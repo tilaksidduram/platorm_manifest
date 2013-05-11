@@ -10,9 +10,10 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the ParanoidAndroid trees, use a command like this:
     
-    mkdir android
-    cd android		
-    mkdir PA	
+    mkdir ~/android
+    cd ~/android		
+    mkdir ~/android/PA	
+    cd ~/android/PA
     repo init -u git@bitbucket.org:ayysir/manifest.git -b jellybean
 
 Then to sync up:
