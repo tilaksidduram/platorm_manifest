@@ -17,8 +17,9 @@
            fetch="ssh://git@bitbucket.org/paranoidandroid/" 
            revision="jellybean" />
 
-  <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/" />
+  <remote name="cm"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
 
    <remote  name="bitbucket"
            fetch="ssh://git@bitbucket.org" />
@@ -28,7 +29,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jellybean" >
+  <project path="build" name="ayysir/android_build" remote="bitbucket" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
