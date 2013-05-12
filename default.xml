@@ -329,7 +329,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
  
 
-  <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jellybean" >
+  <project path="paranoid" name="ayysir/paranoid" remote="bitbucket" revision="jellybean" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
@@ -337,11 +337,11 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
 
  <!-- From my local_manifest, Unorganized I know -->
-  <project name="CyanogenMod/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="github" revision="cm-10.1" />
+  <project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.1" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="github" revision="cm-10.1" />
+  <project name="ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="bitbucket" revision="cm-10.1" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_external_bash" path="external/bash" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_external_htop" path="external/htop" remote="github" revision="cm-10.1" />
