@@ -363,7 +363,6 @@
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.1" />
   <project path="system/core" name="WoH/android_system_core" remote="github" revision="jellybean"  />
   <project path="system/extras" name="Evervolv/android_system_extras" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-10.1" />
@@ -377,7 +376,6 @@
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-10.1" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/DashClock" name="scotthartbti/android_packages_apps_DashClock" remote="github" revision="jb42" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="github" revision="cm-10.1" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="github" revision="cm-10.1" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="github" revision="cm-10.1" />
