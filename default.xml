@@ -381,4 +381,5 @@
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="github" revision="cm-10.1" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="github" revision="cm-10.1" />
   <project path="frameworks/base" name="ayysir/android_frameworks_base" remote="bitbucket" revision="jellybean"  />
+ <project path="packages/apps/DashClock" name="ayysir/packages_apps_DashClock" remote="bitbucket" revision="jb42" />
 </manifest>
