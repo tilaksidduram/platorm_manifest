@@ -24,6 +24,7 @@
    <remote  name="bitbucket"
            fetch="ssh://git@bitbucket.org" />
 
+
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-c="true"
@@ -266,7 +267,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="ayysir/android_packages_apps_Settings" remote="bitbucket" revision="jellybean-legacy"  />
+  <project path="packages/apps/Settings" name="ParanoidAndroid/android_packages_apps_Settings" remote="github" revision="jellybean-legacy"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -379,6 +380,6 @@
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="github" revision="cm-10.1" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="github" revision="cm-10.1" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="github" revision="cm-10.1" />
-  <project path="frameworks/base" name="ayysir/android_frameworks_base" remote="bitbucket" revision="jellybean"  />
+  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
  <project path="packages/apps/DashClock" name="ayysir/packages_apps_DashClock" remote="bitbucket" revision="jb4.2" />
 </manifest>
