@@ -261,7 +261,7 @@
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="cm-10.1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="github" revision="jellybean" />
   <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="ParanoidAndroid/android_packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -339,13 +339,17 @@
   <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
 
- <!-- From my local_manifest, Unorganized I know -->
+
+ <!-- d2tmo -->
   <project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.1" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="github" revision="cm-10.1" />
   <project name="ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="bitbucket" revision="cm-10.1" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1" />
+
+ <!-- From my local_manifest, Unorganized I know -->
+
   <project name="CyanogenMod/android_external_bash" path="external/bash" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_external_htop" path="external/htop" remote="github" revision="cm-10.1" />
   <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="cm-10.1" />
@@ -382,4 +386,13 @@
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="github" revision="cm-10.1" />
   <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
  <project path="packages/apps/DashClock" name="ayysir/packages_apps_DashClock" remote="bitbucket" revision="jb4.2" />
+
+ <!-- jfltetmo -->
+  <project name="ayysir/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="bitbucket" revision="cm-10.1" />
+  <project name="ayysir/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="bitbucket" revision="cm-10.1" />
+  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-10.1" />
+
+ <!-- d2spr -->
+  <project name="ayysir/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="bitbucket" revision="cm-10.1" />
+
 </manifest>
