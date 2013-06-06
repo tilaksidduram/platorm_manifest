@@ -30,7 +30,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jellybean" >
+  <project path="build" name="ayysir/android_build" remote="bitbucket" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -329,10 +329,11 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revision="jellybean" />
 
-  <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jellybean" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
+  <project path="paranoid" name="ayysir/paranoid" remote="bitbucket" revision="jellybean" >
+    <copyfile src="build.sh" dest="compiler.sh" />
   </project>
 
   <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
+
 </manifest>
