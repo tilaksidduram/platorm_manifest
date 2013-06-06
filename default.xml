@@ -17,6 +17,14 @@
            fetch="ssh://git@bitbucket.org/paranoidandroid/" 
            revision="jellybean" />
 
+  <remote name="cm"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+
+   <remote  name="bitbucket"
+           fetch="ssh://git@bitbucket.org" />
+
+
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-c="true"
