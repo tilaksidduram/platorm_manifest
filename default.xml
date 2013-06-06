@@ -17,20 +17,12 @@
            fetch="ssh://git@bitbucket.org/paranoidandroid/" 
            revision="jellybean" />
 
-  <remote name="cm"
-           fetch="https://github.com/"
-           review="review.cyanogenmod.com" />
-
-   <remote  name="bitbucket"
-           fetch="ssh://git@bitbucket.org" />
-
-
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ayysir/android_build" remote="bitbucket" revision="jellybean" >
+  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -68,6 +60,7 @@
   <project path="external/chromium" name="ParanoidAndroid/android_external_chromium" remote="github" revision="jellybean" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
+  <project path="external/clang" name="platform/external/clang" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
@@ -206,6 +199,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
+  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -225,29 +219,23 @@
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="github" revision="cm-10.1"  />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="github" revision="jellybean" />
+  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/testing" name="platform/frameworks/testing" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-10.1" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-10.1" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-10.1" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
- <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="github" revision="cm-10.1" />
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="github" revision="cm-10.1" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github" revision="cm-10.1" />
   <project path="libcore" name="ParanoidAndroid/android_libcore" remote="github" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
    <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
-  <project path="packages/apps/Camera" name="ayysir/android_packages_apps_Camera" remote="bitbucket" revision="cm-10.1" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="cm-10.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
   <project path="packages/apps/Contacts" name="ParanoidAndroid/android_packages_apps_Contacts" remote="github" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="ParanoidAndroid/android_packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email2" name="platform/packages/apps/Email" />
@@ -261,7 +249,7 @@
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="cm-10.1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="github" revision="jellybean" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="ParanoidAndroid/android_packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -312,6 +300,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="master" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
@@ -330,74 +319,15 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
- 
+  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revision="jellybean" />
 
-  <project path="paranoid" name="ayysir/paranoid" remote="bitbucket" revision="jellybean" >
+  <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
+  <project path=".repo" name="ayysir/PA_local_manifest" remote="bitbucket" revision="jellybean-legacy" >
+    <copyfile src="local_manifest.xml" dest="local_manifest.xml" />
+
   <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
-
-
- <!-- d2tmo -->
-  <project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="github" revision="cm-10.1" />
-  <project name="ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="bitbucket" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1" />
-
- <!-- From my local_manifest, Unorganized I know -->
-
-  <project name="CyanogenMod/android_external_bash" path="external/bash" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_htop" path="external/htop" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_lsof" path="external/lsof" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_lzo" path="external/lzo" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_nano" path="external/nano" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_openvpn" path="external/openvpn" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_powertop" path="external/powertop" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_external_vim" path="external/vim" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="cm-10.1" />
-  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="cm-10.1" />
-  <project path="vendor/pa" name="ayysir/android_vendor_pa" remote="bitbucket" revision="jellybean" />
-  <project name="CyanogenMod/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-10.1" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.1" />
-  <project path="system/core" name="WoH/android_system_core" remote="github" revision="jellybean"  />
-  <project path="system/extras" name="Evervolv/android_system_extras" remote="github" revision="jellybean" />
-
-<!-- Qcom Specifics -->
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
-  <!-- End -->
-
-<project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
-  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="github" revision="cm-10.1" />
-  <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="github" revision="cm-10.1" />
-  <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="github" revision="cm-10.1" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" remote="github" revision="cm-10.1" />
-  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
- <project path="packages/apps/DashClock" name="ayysir/packages_apps_DashClock" remote="bitbucket" revision="jb4.2" />
-
- <!-- jfltetmo -->
-  <project name="ayysir/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="bitbucket" revision="cm-10.1" />
-  <project name="ayysir/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="bitbucket" revision="cm-10.1" />
-  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-10.1" />
-
- <!-- d2spr -->
-  <project name="ayysir/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="bitbucket" revision="cm-10.1" />
-
 </manifest>
