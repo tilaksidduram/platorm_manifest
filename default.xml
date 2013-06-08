@@ -237,9 +237,9 @@
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="github" revision="cm-10.1"  />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="github" revision="jellybean" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="github" revision="cm-10.1" />
+  <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="github" revision="cm-10.1" />
+  <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="github" revision="cm-10.1" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
@@ -361,9 +361,6 @@
 
 <!-- Local Manifest Merge -->
 <project path="packages/apps/DashClock" name="ayysir/packages_apps_DashClock" remote="bitbucket" revision="jb4.2" />
-<project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="github" revision="cm-10.1" />
-<project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="github" revision="cm-10.1" />
-<project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="github" revision="cm-10.1" />
 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
 <project name="paranoidandroid/aosp_frameworks_base" path="frameworks/base" remote="bitbucket" revision="multiwindow-legacy" />
 <project name="paranoidandroid/aosp_packages_apps_settings" path="packages/apps/Settings" remote="bitbucket" revision="multiwindow-legacy" />
