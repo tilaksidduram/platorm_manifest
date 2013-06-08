@@ -248,6 +248,9 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
+  <project path="packages/apps/ParanoidUpdater" name="ParanoidAndroid/android_packages_apps_ParanoidUpdater" remote="github" revision="jellybean" />
+  <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
+  <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
@@ -261,8 +264,7 @@
   <project path="packages/apps/Launcher2" name="ParanoidAndroid/android_packages_apps_Launcher2" remote="github" revision="jellybean" />
   <project path="packages/apps/Mms" name="ParanoidAndroid/android_packages_apps_Mms" remote="github" revision="jellybean" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-10.1" />
   <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="ParanoidAndroid/android_packages_apps_Phone" remote="github" revision="6033a28706db6261b28a81440c87964d531815f7" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
