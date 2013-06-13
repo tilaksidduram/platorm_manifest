@@ -30,7 +30,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="AOSPA-slickrick/android_build" remote="github" revision="jellybean-exp" >
+  <project path="build" name="ayysir/sr_android_build" remote="bitbucket" revision="jellybean-exp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -218,7 +218,6 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.1"/>
-  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jellybean-legacy"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -325,6 +324,8 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.7" name="Ayysir/Toolchains" remote="github" revision="linaro-4.7" groups="linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.8.1" name="ayysir/Toolchains" remote="bitbucket" revision="linaro-4.8.1" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="master" groups="linux,arm" />
@@ -357,8 +358,8 @@
 <!-- Local Manifest Merge -->
 <project path="packages/apps/DashClock" name="ayysir/packages_apps_DashClock" remote="bitbucket" revision="jb4.2" />
 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
-<project name="paranoidandroid/aosp_frameworks_base" path="frameworks/base" remote="bitbucket" revision="multiwindow-legacy" />
-<project name="paranoidandroid/aosp_packages_apps_settings" path="packages/apps/Settings" remote="bitbucket" revision="multiwindow-legacy" />
+<project name="ParanoidAndroid/android_frameworks_base" path="frameworks/base" remote="github" revision="jellybean-legacy" />
+<project name="ParanoidAndroid/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jellybean-legacy" />
 <project path="vendor/pa" name="ayysir/android_vendor_pa" remote="bitbucket" revision="jellybean" />
 <project name="CyanogenMod/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-10.1" />
 <project name="AOSPA-slickrick/android_system_core" path="system/core" remote="github" revision="cm-10.1" />
@@ -377,14 +378,15 @@
 <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.1" />
 <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-10.1" />
 <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="bitbucket" revision="cm-10.1" />
-<project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="github" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_jflteatt" path="device/samsung/jflteatt" remote="bitbucket" revision="cm-10.1" />
-<project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_jfltecan" path="device/samsung/jfltecan" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="bitbucket" revision="cm-10.1" />
 <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-10.1" />
 </manifest>
