@@ -385,6 +385,7 @@
 <project name="ayysir/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_d2mtr" path="device/samsung/d2mtr" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_d2usc" path="device/samsung/d2usc" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2vzw" path="device/samsung/d2vzw" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_jflteatt" path="device/samsung/jflteatt" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_jfltecan" path="device/samsung/jfltecan" remote="bitbucket" revision="cm-10.1" />
