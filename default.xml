@@ -258,7 +258,6 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/ParanoidUpdater" name="ParanoidAndroid/android_packages_apps_ParanoidUpdater" remote="github" revision="jellybean" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
   <project path="packages/apps/OTAPlatform" name="ParanoidAndroid/OTAPlatform" remote="github" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="github" revision="jellybean" />
@@ -365,7 +364,7 @@
 <project name="CyanogenMod/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-10.1" />
 <project name="AOSPA-slickrick/android_system_core" path="system/core" remote="github" revision="cm-10.1" />
 <project path="system/extras" name="Evervolv/android_system_extras" remote="github" revision="jellybean" />
-<project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
+<project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="49d7909d104f8102a3b0e9726f5a1e6844e75ffe" />
 <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-10.1" />
 <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-10.1" />
 <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" />
