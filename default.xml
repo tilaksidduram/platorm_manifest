@@ -33,6 +33,18 @@
   <project path="build" name="ayysir/sr_android_build" remote="bitbucket" revision="jellybean-exp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+<!--Device Trees -->
+<project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2mtr" path="device/samsung/d2mtr" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2usc" path="device/samsung/d2usc" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2vzw" path="device/samsung/d2vzw" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_jflteatt" path="device/samsung/jflteatt" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_jfltecan" path="device/samsung/jfltecan" remote="bitbucket" revision="cm-10.1" />
+<!--end -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="ParanoidAndroid/android_bionic" remote="github" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -380,15 +392,6 @@
 <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2mtr" path="device/samsung/d2mtr" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2usc" path="device/samsung/d2usc" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2vzw" path="device/samsung/d2vzw" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_jflteatt" path="device/samsung/jflteatt" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_jfltecan" path="device/samsung/jfltecan" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="bitbucket" revision="cm-10.1" />
 <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-10.1" />
