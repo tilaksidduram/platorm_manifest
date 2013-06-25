@@ -356,6 +356,7 @@
 
 <!-- Local Manifest Merge -->
 <project path="packages/apps/DashClock" name="ayysir/packages_apps_DashClock" remote="bitbucket" revision="jb4.2" />
+<project path="packages/apps/PAUPDATER" name="Matze5800/pa-updater" remote="github" revision="master" />
 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
 <project name="ParanoidAndroid/android_frameworks_base" path="frameworks/base" remote="github" revision="jellybean-legacy" />
 <project name="ParanoidAndroid/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jellybean-legacy" />
