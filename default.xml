@@ -30,7 +30,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ayysir/sr_android_build" remote="bitbucket" revision="jellybean-exp" >
+  <project path="build" name="Ayysir/android_build" remote="github" revision="jellybean-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
