@@ -395,4 +395,5 @@
 <project name="ayysir/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="bitbucket" revision="cm-10.1" />
 <project name="ayysir/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="bitbucket" revision="cm-10.1" />
 <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-10.1" />
+<project path="vendor/pa" name="Ayysir/android_vendor_pa" remote="github" revision="jellybean" />
 </manifest>
