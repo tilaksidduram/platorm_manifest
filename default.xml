@@ -372,7 +372,7 @@
 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
 <project name="Ayysir/android_frameworks_base" path="frameworks/base" remote="github" revision="jellybean-legacy" />
 <project name="Ayysir/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jellybean-legacy" />
-<project path="vendor/pa" name="ayysir/android_vendor_pa" remote="bitbucket" revision="jellybean" />
+<project path="vendor/pa" name="Ayysir/android_vendor_pa" remote="github" revision="jellybean" />
 <project name="CyanogenMod/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-10.1" />
 <project name="AOSPA-slickrick/android_system_core" path="system/core" remote="github" revision="cm-10.1" />
 <project path="system/extras" name="Evervolv/android_system_extras" remote="github" revision="jellybean" />
