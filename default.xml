@@ -182,7 +182,7 @@
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="cm-10.1" />
-  <project path="external/oprofile" name="platform/external/oprofile" remote="aosp" revision="8b82b791ff927e4c5cb59d31889189b6436101ea" />
+  <project path="external/oprofile" name="Ayysir/android_external_oprofile" remote="github" revision="cm-10.1" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -205,7 +205,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="SaberMod/android_external_stlport" remote="github" revision="sm-jb-mr1" />
+  <project path="external/stlport" name="Ayysir/android_external_stlport" remote="github" revision="cm-10.1" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
@@ -355,7 +355,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="platform/system/security" remote="aosp" revision="66702f7263eb7e30a4596135bb18443997bc24cf"  />
+  <project path="system/security" name="Ayysir/android_system_security" remote="github" revision="cm-10.1"  />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-10.1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
