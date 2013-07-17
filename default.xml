@@ -266,7 +266,10 @@
   <project path="libcore" name="ParanoidAndroid/android_libcore" remote="github" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Babel" name="koush/babel" remote="github" revision="master" />
+  <project path="external/koush/ion" name="CyanogenMod/ion" remote="github" revision="cm-10.1" />
+  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="github" revision="cm-10.1" />
+  <project path="external/Babel" name="CyanogenMod/android_packages_apps_Babel" remote="github" revision="cm-10.1" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
