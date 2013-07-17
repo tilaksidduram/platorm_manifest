@@ -268,7 +268,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="external/koush/ion" name="CyanogenMod/ion" remote="github" revision="cm-10.1" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="github" revision="cm-10.1" />
-  <project path="external/Babel" name="CyanogenMod/android_packages_apps_Babel" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/Babel" name="CyanogenMod/android_packages_apps_Babel" remote="github" revision="cm-10.1" />
   <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
