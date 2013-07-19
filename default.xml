@@ -362,7 +362,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="paranoid" name="ayysir/paranoid" remote="bitbucket" revision="jellybean" >
+  <project path="PAL" name="PALegacy/PAL" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="compiler.sh" />
   </project>
 
@@ -370,7 +370,7 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
 
 <!-- Local Manifest Merge -->
-<project path="packages/apps/DashClock" name="PALegacy/packages_apps_DashClock" remote="bitbucket" revision="jb4.2" />
+<project path="packages/apps/DashClock" name="PALegacy/packages_apps_DashClock" remote="github" revision="jb4.2" />
 <project name="PALegacy/android_frameworks_base" path="frameworks/base" remote="github" revision="jellybean-legacy" />
 <project name="PALegacy/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jellybean-legacy" />
 <project name="CyanogenMod/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-10.1" />
@@ -392,10 +392,10 @@
 
 <!--Samsung Properties-->
 <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="bitbucket" revision="cm-10.1" />
+<project name="Ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="github" revision="cm-10.1" />
+<project name="Ayysir/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-10.1" />
+<project name="Ayysir/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-10.1" />
+<project name="Ayysir/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="github" revision="cm-10.1" />
 <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-10.1" />
 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
 <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.1" />
