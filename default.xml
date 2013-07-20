@@ -402,5 +402,12 @@
 <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-10.1" />
 <!--END-->
 
+  <!--Camera-->
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" remote="github" revision="cm-10.1" />
+  <!--END-->
+
 <project path="vendor/pa" name="PALegacy/android_vendor_pa" remote="github" revision="jb-legacy" />
 </manifest>
