@@ -402,5 +402,6 @@
   <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" remote="github" revision="cm-10.1" />
   <!--END-->
 
+  <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jellybean" />
 <project path="vendor/pa" name="PALegacy/android_vendor_pa" remote="github" revision="jb-legacy" />
 </manifest>
