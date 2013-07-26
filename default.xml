@@ -270,7 +270,7 @@
   <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" remote="github" revision="cm-10.1" />
   <!--END-->
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
-  <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="github" revision="jellybean" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
