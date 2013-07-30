@@ -375,6 +375,8 @@
 <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.1" />
 <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-10.1" />
 <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-10.1" />
+<project path="packages/apps/Focal" name="CyanogenMod/android_packages_apps_Focal" remote="github" revision="cm-10.2" />
+<project path="external/Focal" name="CyanogenMod/android_external_Focal" remote="github" revision="cm-10.2" />
 <!--END-->
 
 <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jellybean" />
