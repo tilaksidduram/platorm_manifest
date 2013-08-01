@@ -27,9 +27,11 @@
   <remote name="me43"
            fetch="https://github.com/Ayysir" />
 
+<remote name="pa"
+           fetch="https://github.com/ParanoidAndroid" />
+
    <remote  name="bitbucket"
            fetch="ssh://git@bitbucket.org" />
-
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
@@ -68,10 +70,10 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2"/>
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -82,9 +84,9 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="android_external_doclava" remote="cm" revision="cm-10.2" />
+  <project path="external/doclava" name="android_external_doclava" remote="lnx" revision="jb43" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -99,6 +101,7 @@
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
+  <project path="external/Focal" name="android_external_Focal" remote="cm" revision="cm-10.2" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -122,7 +125,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="android_external_jpeg" remote="cm" revision="cm-10.2" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="pa" revision="jb43" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -153,7 +156,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="android_external_llvm" remote="cm" revision="cm-10.2" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" /> 
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
@@ -214,7 +217,7 @@
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webkit" name="ParanoidAndroid/android_external_webkit" remote="github" revision="jb43" />
-  <project path="external/webp" name="platform/external/webp" />
+  <project path="external/webp" name="android_external_webp" remote="cm" revision="cm-10.2" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
@@ -230,7 +233,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="lnx" revision="jb43" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" /> 
@@ -245,15 +248,15 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="github" revision="jb43" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/testing" name="android_frameworks_testing" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" /> 
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" /> 
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" /> 
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="Ayysir/android_hardware_libhardware" remote="github" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" />
@@ -271,7 +274,7 @@
   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jb43" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="pa" revision="jb43" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="ParanoidAndroid/android_packages_apps_Contacts" remote="github" revision="jb43" />
@@ -285,7 +288,7 @@
   <project path="packages/apps/Launcher2" name="ParanoidAndroid/android_packages_apps_Launcher2" remote="github" revision="jb43" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="me43" revision="jbl-4.3" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lnx" revision="jb43" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" remote="github" revision="jellybean" />
@@ -308,7 +311,7 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lnx" revision="jb43" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
@@ -361,38 +364,33 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk"/>
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="android_system_security" remote="me43" revision="cm-10.2"  />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
-  <project path="tools/motodev" name="platform/tools/motodev" />
+  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,tools" />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
 
   <project path="paranoid" name="Ayysir/paranoid" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="compiler.sh" />
   </project>
 
-  <!-- Theme engine support, all the credits go to T-Mobile and CyanogenMod -->
-  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
-  
-<!--Camera-->
-<project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="cm-10.2" />
-<project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" remote="github" revision="cm-10.2" />
-<project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-10.2" />
-<project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" remote="github" revision="cm-10.2" />
-<!--END-->
-
-<!--Focal-->
+ <!--Camera-->
+<project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
 <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" revision="cm-10.2" />
-<!--End-->
+<project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
+<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+<!--END-->
 
 <!-- Local Manifest Merge -->
 <project path="packages/apps/DashClock" name="Ayysir/packages_apps_DashClock" remote="github" revision="jb4.2" />
-<project name="android_frameworks_base" path="frameworks/base" remote="me43" revision="lnx" />
-<project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="me43" revision="jbl-4.3" />
+<project name="android_frameworks_base" path="frameworks/base" remote="me43" revision="exp" />
+<project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="me43" revision="exp" />
 <project name="android_vendor_cm" path="vendor/cm" remote="cm" revision="cm-10.2" />
-<project path="system/core" name="android_system_core" remote="me43" revision="jbl-4.3"  />
+<project path="system/core" name="android_system_core" remote="lnx" revision="jb43" />
 <project path="system/extras" name="android_system_extras" remote="me43" revision="jbl-4.3" />
 
 <!--Samsung Properties-->
@@ -403,7 +401,7 @@
 <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
 <!--END-->
 
-<project path="vendor/pa" name="android_vendor_pa" remote="me43" revision="jbl-4.3" />
+<project path="vendor/pa" name="android_vendor_pa" remote="me43" revision="exp43" />
 <project path="external/koush/ion" name="ion" remote="cm" revision="cm-10.2" />
 <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-10.2" />
 <project path="external/gson" name="android_external_gson" remote="cm" revision="cm-10.2" />
