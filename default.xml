@@ -42,7 +42,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="Ayysir/android_build" remote="github" revision="jbl-4.3" >
+  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jb43" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
