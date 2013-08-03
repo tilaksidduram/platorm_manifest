@@ -403,7 +403,6 @@
   <project path="packages/apps/DashClock" name="Ayysir/packages_apps_DashClock" remote="github" revision="jb4.2" />
   <project name="manelscout4life/pa_android_frameworks_base" path="frameworks/base" remote="github" revision="jb43" />
   <project name="manelscout4life/pa_android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb43" />
-  <project name="android_vendor_cm" path="vendor/cm" remote="cm" revision="cm-10.2" />
   <project path="system/core" name="android_system_core" remote="lnx" revision="jb43" />
   <project path="system/extras" name="android_system_extras" remote="me43" revision="jbl-4.3" />
 
