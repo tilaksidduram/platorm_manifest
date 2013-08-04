@@ -403,7 +403,7 @@
 <project path="system/core" name="android_system_core" remote="me43" revision="exp" />
 <project path="system/extras" name="android_system_extras" remote="me43" revision="jbl-4.3" />
 <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-10.2" />
-<project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-10.2" />
+<project name="manelscout4life/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-10.2" />
 <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jellybean" />
 <project name="Glxytools" path="glxytools" remote="me43" revision="jb" />
 </manifest>
