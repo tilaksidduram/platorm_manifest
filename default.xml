@@ -398,8 +398,8 @@
 <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
 
 <!--Essentials-->
-<project name="android_frameworks_base" path="frameworks/base" remote="pa" revision="jb43" />
-<project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa" revision="jb43" />
+<project name="manelscout4life/pa_android_frameworks_base" path="frameworks/base" remote="github" revision="jb43" />
+<project name="manelscout4life/pa_android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="jb43" />
 <project path="system/core" name="android_system_core" remote="me43" revision="exp" />
 <project path="system/extras" name="android_system_extras" remote="me43" revision="jbl-4.3" />
 <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-10.2" />
