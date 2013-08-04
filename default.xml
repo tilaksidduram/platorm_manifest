@@ -265,7 +265,7 @@
   <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
