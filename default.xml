@@ -393,6 +393,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/pa" name="manelscout4life/android_vendor_pa" remote="github" revision="jb43" />
+  <project name="android_vendor_cm" path="vendor/cm" remote="cm" revision="cm-10.2" />
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
     <copyfile src="build.sh" dest="rom-build.sh" />
