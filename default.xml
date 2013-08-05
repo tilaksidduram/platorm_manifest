@@ -404,6 +404,5 @@
 <project name="android_device_samsung_n7100" path="device/samsung/n7100" remote="cm" revision="cm-10.2" />
 <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-10.2" />
 <project name="manelscout4life/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-10.2" />
-<project name="Glxytools" path="glxytools" remote="me43" revision="jb" />
 
 </manifest>
