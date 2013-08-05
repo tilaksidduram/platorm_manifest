@@ -19,6 +19,9 @@
            
   <remote name="pa"
            fetch="https://github.com/ParanoidAndroid" />
+           
+  <remote name="me43"
+           fetch="https://github.com/Ayysir" />
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
