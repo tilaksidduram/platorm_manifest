@@ -384,12 +384,6 @@
 <project path="packages/apps/DashClock" name="Ayysir/packages_apps_DashClock" remote="github" revision="jb4.2" />
 <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
 
-<!--Voice Plus-->
-<project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-10.2" />
-<project path="external/koush/ion" name="ion" remote="cm" revision="cm-10.2" />
-<project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-10.2" />
-<project path="external/gson" name="android_external_gson" remote="cm" revision="cm-10.2" />
-
 <!--Focal-->
 <project path="external/Focal" name="android_external_Focal" remote="cm" revision="cb910e9df7e1ca5fa8d5a2a512427e5443ada27e" />
 <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" revision="cm-10.2" />
