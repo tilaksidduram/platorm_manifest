@@ -278,7 +278,6 @@
   <project path="packages/apps/HALO" name="HALO" remote="pa" revision="jellybean" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="pa" revision="jb43" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="cm-10.2" />
@@ -287,16 +286,12 @@
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" /> 
   <project path="packages/apps/Email2" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Gallery" name="android_packages_apps_Gallery" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="ParanoidAndroid/android_packages_apps_Launcher2" remote="github" revision="jb43" />
-  <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pa" revision="jb43-legacy" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pa" revision="jb43" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/ParanoidWallpapers" name="android_packages_apps_ParanoidWallpapers" remote="pa" revision="jellybean" />
@@ -388,6 +383,12 @@
 <!--Extras-->
 <project path="packages/apps/DashClock" name="Ayysir/packages_apps_DashClock" remote="github" revision="jb4.2" />
 <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
+
+<!--Voice Plus-->
+<project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-10.2" />
+<project path="external/koush/ion" name="ion" remote="cm" revision="cm-10.2" />
+<project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-10.2" />
+<project path="external/gson" name="android_external_gson" remote="cm" revision="cm-10.2" />
 
 <!--Vendors-->
 <project name="android_vendor_cm" path="vendor/cm" remote="cm" revision="cm-10.2" />
