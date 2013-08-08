@@ -384,6 +384,12 @@
 <project path="packages/apps/DashClock" name="Ayysir/packages_apps_DashClock" remote="github" revision="jb4.2" />
 <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
 
+<!--Camera-->
++<project path="packages/apps/Gallery" name="android_packages_apps_Gallery" remote="cm" revision="cm-10.2" />
++<project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-10.2" />
++<project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="cm" revision="cm-10.2" />
++<project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="cm-10.2" />
+
 <!--Focal-->
 <project path="external/Focal" name="android_external_Focal" remote="cm" revision="cb910e9df7e1ca5fa8d5a2a512427e5443ada27e" />
 <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" revision="cm-10.2" />
