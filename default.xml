@@ -13,10 +13,6 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="paranoid"
-           fetch="ssh://git@bitbucket.org/paranoidandroid/" 
-           revision="jellybean" />
-
   <remote name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
