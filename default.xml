@@ -375,7 +375,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,tools" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
 
-  <project path="paranoid" name="Ayysir/paranoid" remote="github" revision="jellybean" >
+  <project path="paranoid" name="paranoid" remote="pa" revision="jb43" >
     <copyfile src="build.sh" dest="compiler.sh" />
   </project>
 
@@ -407,7 +407,7 @@
 <project path="system/core" name="android_system_core" remote="me43" revision="exp" />
 <project path="system/extras" name="android_system_extras" remote="pa" revision="jb43" />
 <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-10.2" />
-<project name="manelscout4life/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-10.2" />
-<project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jellybean" />
+<project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-10.2" />
+<project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jb43" />
 <project name="Glxytools" path="glxytools" remote="me43" revision="jb" />
 </manifest>
