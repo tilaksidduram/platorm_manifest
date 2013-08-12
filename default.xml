@@ -28,6 +28,9 @@
 
   <remote name="pa"
            fetch="https://github.com/ParanoidAndroid" />
+           
+  <remote  name="bitbucket"
+           fetch="ssh://git@bitbucket.org" />         
 
   <remote  name="ev"
            fetch="https://github.com/Evervolv/"
