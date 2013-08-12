@@ -375,7 +375,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,tools" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
 
-  <project path="paranoid" name="paranoid" remote="pa" revision="jb43" >
+  <project path="paranoid" name="Ayysir/paranoid" remote="github" revision="jellybean" >
     <copyfile src="build.sh" dest="compiler.sh" />
   </project>
 
