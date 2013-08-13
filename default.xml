@@ -54,7 +54,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="android_dalvik" remote="pa" revision="jb43-legacy" />
+  <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.2" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
@@ -84,7 +84,7 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project name="android_external_clang" path="external/clang" remote="cm" revision="cm-10.2" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project name="android_device_generic_common" path="device/generic/common" remote="cm" revision="cm-10.2" />
+  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
@@ -141,7 +141,7 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" revision="cm-10.2" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="cm-10.2" groups="nxp_nfc" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -266,8 +266,8 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
