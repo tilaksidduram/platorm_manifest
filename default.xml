@@ -24,6 +24,9 @@
 
   <remote name="me43"
            fetch="https://github.com/Ayysir" />
+           
+  <remote name="ts"
+           fetch="https://github.com/tilaksidduram" />
 
   <remote name="pa"
            fetch="https://github.com/ParanoidAndroid" />
@@ -46,7 +49,7 @@
   </project>
 
 <!--Device Trees -->
-<project name="android_device_samsung_n7100" path="device/samsung/n7100" remote="cm" revision="cm-10.2" />
+<project name="android_device_samsung_n7100" path="device/samsung/n7100" remote="ts" revision="cm-10.2" />
 <!--end -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="ParanoidAndroid/android_bionic" remote="github" revision="jb43" />
@@ -409,7 +412,7 @@
 <project path="system/core" name="android_system_core" remote="me43" revision="exp" />
 <project path="system/extras" name="android_system_extras" remote="pa" revision="jb43" />
 <project path="system/extras/multirom" name="multirom-1" remote="me43" revision="d2tmo" />
-<project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-10.2" />
+<project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="ts" revision="cm-10.2" />
 <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-10.2" />
 <project path="packages/apps/ParanoidOTA" name="ParanoidAndroid/android_packages_apps_ParanoidOTA" remote="github" revision="jb43" />
 <project name="Glxytools" path="glxytools" remote="me43" revision="jb" />
