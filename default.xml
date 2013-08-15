@@ -22,6 +22,9 @@
            
   <remote name="me43"
            fetch="https://github.com/Ayysir" />
+           
+  <remote name="ts"
+           fetch="https://github.com/tilaksidduram" />
 
   <default revision="refs/tags/android-4.3_r1"
            remote="aosp"
@@ -403,8 +406,8 @@
 <project path="vendor/pa" name="android_vendor_pa" remote="me43" revision="jb43-legacy" />
 
 <!--Essentials-->
-<project name="android_device_samsung_n7100" path="device/samsung/n7100" remote="cm" revision="cm-10.2" />
-<project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-10.2" />
+<project name="android_device_samsung_n7100" path="device/samsung/n7100" remote="ts" revision="cm-10.2" />
+<project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="ts" revision="cm-10.2" />
 <project name="manelscout4life/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-10.2" />
 
 </manifest>
