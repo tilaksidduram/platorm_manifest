@@ -403,6 +403,10 @@
 <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
 <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
 
+<!--Focal-->
+<project path="external/Focal" name="CyanogenMod/android_external_Focal" remote="github" revision="cb910e9df7e1ca5fa8d5a2a512427e5443ada27e" />
+<project path="packages/apps/Focal" name="CyanogenMod/android_packages_apps_Focal" remote="github" revision="cm-10.2" />
+
 <!--Vendors-->
 <project name="android_vendor_cm" path="vendor/cm" remote="cm" revision="cm-10.2" />
 <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.2" />
