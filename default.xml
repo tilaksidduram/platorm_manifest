@@ -376,9 +376,9 @@
   <project path="system/core" name="ParanoidAndroid/android_system_core" remote="github" revision="jb43-legacy" />
   <project path="system/extras" name="ParanoidAndroid/android_system_extras" remote="github" revision="jb43"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="android_system_vold"  remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -396,7 +396,6 @@
   </project>
   
 <!--Extras-->
-<project path="packages/apps/XposedInstaller" name="rovo89/XposedInstaller" remote="github" revision="master" />
 <project path="system/extras/multirom" name="multirom-1" remote="ts" revision="n7100" />
 <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" remote="github" revision="cm-10.2" />
 <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="github" revision="cm-10.2" />
@@ -418,14 +417,12 @@
 
 <!--Vendors-->
 <project name="android_vendor_cm" path="vendor/cm" remote="cm" revision="cm-10.2" />
-<project path="vendor/pa" name="android_vendor_pa" remote="me43" revision="ThemeEngine" />
+<project path="vendor/pa" name="android_vendor_pa" remote="me43" revision="jb43-legacy" />
 <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.2" />
 <project name="android_device_samsung_n7100" path="device/samsung/n7100" remote="ts" revision="cm-10.2" />
 <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="ts" revision="cm-10.2" />
 <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-10.2" />
 <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
 <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
-<!--Essentials-->
-
 
 </manifest>
