@@ -390,7 +390,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
-  <project path="paranoid" name="Ayysir/paranoid" remote="github" revision="jellybean" >
+  <project path="paranoid" name="paranoid" remote="pa" revision="jb43" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     
   </project>
