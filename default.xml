@@ -225,7 +225,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="github" revision="cm-10.2" />
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project name="android_frameworks_base" path="frameworks/base" remote="me43" revision="offpa" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="pa" revision="jb43-legacy" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -302,7 +302,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="me43" revision="offpa" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pa" revision="jb43-legacy" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -403,6 +403,7 @@
 <project path="packages/apps/HALO" name="HALO" remote="pa" revision="jellybean" />
 <project path="packages/apps/DashClock" name="Ayysir/packages_apps_DashClock" remote="github" revision="jb4.2" />
 <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
+<project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-10.2" />
 
 <!--Theme Engine Test-->
 <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-10.2" />
