@@ -32,7 +32,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="build" name="manelscout4life/android_build" remote="github" revision="jb43" >
+  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jb43-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
