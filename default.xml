@@ -225,7 +225,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="github" revision="cm-10.2" />
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project name="android_frameworks_base" path="frameworks/base" remote="ts" revision="exp" />
+  <project path="frameworks/base" name="tilaksidduram/android_frameworks_base" remote="github" revision="exp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -303,7 +303,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="ts" revision="exp" />
+  <project path="packages/apps/Settings" name="tilaksidduram/android_packages_apps_Settings" remote="github" revision="exp" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -416,8 +416,8 @@
 <project path="vendor/tmobile/providers/ThemeManager" name="ParanoidAndroid/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jb43" />
 
 <!--Focal-->
-<project path="external/Focal" name="CyanogenMod/android_external_Focal" remote="github" revision="cm-10.2" />
-<project path="packages/apps/Focal" name="CyanogenMod/android_packages_apps_Focal" remote="github" revision="cm-10.2" />
+<project path="external/Focal" name="xplodwild/android_external_Focal" remote="github" revision="cm-10.2" />
+<project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="github" revision="master" />
 
 <!--Vendors-->
 <project name="android_vendor_cm" path="vendor/cm" remote="cm" revision="cm-10.2" />
