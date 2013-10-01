@@ -24,7 +24,7 @@
   <remote  name="me"
            fetch="git://github.com/Ayysir/" />
 
-  <default revision="refs/tags/android-4.3_r3"
+  <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
            sync-c="true"
            sync-f="true"
