@@ -14,7 +14,7 @@ To initialize your local repository using the ParanoidAndroid trees, use a comma
     cd ~/android		
     mkdir ~/android/PA	
     cd ~/android/PA
-    repo init -u https://github.com/tilaksidduram/platorm_manifest.git -b jellybean-legacy
+    repo init -u git://github.com/tilaksidduram/platorm_manifest.git -b jb43
 
 
 Then to sync up:
