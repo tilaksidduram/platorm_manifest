@@ -410,7 +410,7 @@
 <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="cm" revision="cm-10.2" />
 <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
 <project path="packages/apps/HALO" name="HALO" remote="pa" revision="jellybean" />
-<project path="packages/apps/DashClock" name="Ayysir/packages_apps_DashClock" remote="github" revision="jb4.2" />
+<project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="jb4.3" />
 <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
 <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision="cm-10.2" />
 <project path="external/gson" name="CyanogenMod/android_external_gson" remote="cm" revision="cm-10.2" />
