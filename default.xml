@@ -230,7 +230,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="ts" revision="test" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ts" revision="test-ad" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -308,7 +308,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ts" revision="test" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ts" revision="test-ad" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -416,6 +416,7 @@
 <project path="external/gson" name="CyanogenMod/android_external_gson" remote="cm" revision="cm-10.2" />
 <project path="external/koush/ion" name="CyanogenMod/ion" remote="cm" revision="cm-10.2" />
 <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="cm" revision="cm-10.2" />
+<project path="packages/apps/Cast" name="koush/Cast" remote="github" revision="master" />
 
 <!--Theme Engine Test-->
 <project path="vendor/tmobile/apps/ThemeChooser" name="ParanoidAndroid/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb43" />
