@@ -416,7 +416,6 @@
 <project path="external/gson" name="CyanogenMod/android_external_gson" remote="cm" revision="cm-10.2" />
 <project path="external/koush/ion" name="CyanogenMod/ion" remote="cm" revision="cm-10.2" />
 <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="cm" revision="cm-10.2" />
-<project path="packages/apps/Cast" name="koush/Cast" remote="github" revision="master" />
 
 <!--Theme Engine Test-->
 <project path="vendor/tmobile/apps/ThemeChooser" name="ParanoidAndroid/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb43" />
