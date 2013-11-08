@@ -286,7 +286,7 @@
   <project path="hardware/libhardware" name="AOSPA-legacy/android_hardware_libhardware" remote="gh" revision="kitkat" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="AOSPA-legacy/android_hardware_libhardware_legacy" remote="gh" revision="kitkat" groups="pdk" />
   <project path="hardware/ril" name="AOSPA-legacy/android_hardware_ril" remote="gh" revision="kitkat" groups="pdk" />
-  <project path="libcore" name="AOSPA-legacy/android_libcore" remote="gh" revision="kitkat" />
+  <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
