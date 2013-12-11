@@ -438,4 +438,6 @@
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 
+    <project name="omnirom/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="android-4.4" />
+
 </manifest>
