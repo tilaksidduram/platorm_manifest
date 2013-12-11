@@ -10,7 +10,7 @@
            review="gerrit.paranoidandroid.co" />
 
   <remote  name="blobs"
-           fetch="https://github.com/DonkeyCoyote" />
+           fetch="https://github.com/TheMuppets" />
 
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
@@ -438,6 +438,6 @@
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 
-    <project name="omnirom/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="android-4.4" />
+  <project name="omnirom/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="android-4.4" />
 
 </manifest>
