@@ -36,7 +36,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-11.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="bootable/recovery" name="AOSPA-legacy/android_bootable_recovery" remote="github" revision="kitkat" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="cm" revision="cm-11.0" />
   <project path="developers/build" name="platform/developers/build" />
