@@ -30,7 +30,7 @@
 
   <project path="manifest" name="tilaksidduram/platorm_manifest" remote="github" revision="kitkat" />
 
-  <project path="build" name="tilaksidduram/android_build" remote="github" revision="kitkat" >
+  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
