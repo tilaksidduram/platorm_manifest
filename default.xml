@@ -32,6 +32,7 @@
 
   <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
+	<copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -121,6 +122,7 @@
   <project path="external/droiddriver" name="platform/external/droiddriver" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="cm" revision="cm-11.0" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/eigen" name="platform/external/eigen" />
