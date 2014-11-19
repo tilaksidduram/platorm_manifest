@@ -34,7 +34,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA-legacy/manifest -b lollipop
+$ repo init -u git://github.com/tilaksidduram/platorm_manifest.git -b lollipop
 ```
 
 ### Downloading the source tree ###
