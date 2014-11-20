@@ -435,7 +435,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" remote="cm" revision="cm-12.0" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
+  <project path="packages/services/Telecomm" name="AOSPA-legacy/android_packages_services_Telecomm" remote="github" revision="lollipop" />
   <project path="packages/services/Telephony" name="AOSPA-legacy/android_packages_services_Telephony" remote="github" revision="lollipop" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
