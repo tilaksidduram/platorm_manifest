@@ -18,7 +18,7 @@
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
 
-  <default revision="refs/tags/android-5.0.0_r7"
+  <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -407,7 +407,6 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-12.0" />
-  <project path="packages/apps/OMA-DM" name="platform/packages/apps/OMA-DM" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
