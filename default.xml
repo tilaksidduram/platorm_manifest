@@ -543,4 +543,8 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
+<!--Extras-->
+  <project path="packages/apps/ScreenRecorder" name="tilaksidduram/android_packages_apps_ScreenRecorder" remote="github" revision="cm-12.0" />
+<!--END-->
+
 </manifest>
