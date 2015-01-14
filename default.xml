@@ -517,6 +517,7 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="AOSPA-legacy/android_system_core" remote="github" revision="lollipop" groups="pdk" />
   <project path="system/extras" name="AOSPA-legacy/android_system_extras" remote="github" revision="lollipop" groups="pdk" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" groups="pdk" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-12.0" groups="pdk" />
