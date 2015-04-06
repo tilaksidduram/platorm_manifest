@@ -425,6 +425,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" />
   <project path="packages/apps/Stk" name="AOSPA-L/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="AOSPA-L/android_packages_apps_Tag" />
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" remote="aosp" />
   <project path="packages/apps/UnifiedEmail" name="AOSPA-L/android_packages_apps_UnifiedEmail" />
   <project path="packages/experimental" name="AOSPA-L/android_packages_experimental" />
@@ -437,6 +438,7 @@
   <project path="packages/providers/MediaProvider" name="AOSPA-L/android_packages_providers_MediaProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA-L/android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-12.1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" remote="aosp" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" />
@@ -504,6 +506,7 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" />
   <project path="system/core" name="AOSPA-L/android_system_core" groups="pdk" />
   <project path="system/extras" name="AOSPA-L/android_system_extras" groups="pdk" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.1" groups="pdk" />
   <project path="system/keymaster" name="AOSPA-L/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="AOSPA-L/android_system_media" groups="pdk" />
   <project path="system/netd" name="AOSPA-L/android_system_netd" groups="pdk" />
