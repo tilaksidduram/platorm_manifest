@@ -22,7 +22,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="manifest" name="AOSPA-L/manifest" />
+  <project path="manifest" name="tilaksidduram/platorm_manifest" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="AOSPA-L/android_art" groups="pdk" />
@@ -520,7 +520,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <project path="vendor/pa" name="AOSPA-L/android_vendor_pa" >
+  <project path="vendor/pa" name="tilaksidduram/android_vendor_pa-1" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
