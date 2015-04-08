@@ -527,4 +527,7 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
+  <!--Extra repos -->
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
+
 </manifest>
