@@ -415,7 +415,6 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" />
   <project path="packages/apps/ParanoidOTA" name="AOSPA-L/android_packages_apps_ParanoidOTA" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" remote="aosp" />
   <project path="packages/apps/PhoneCommon" name="AOSPA-L/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" />
