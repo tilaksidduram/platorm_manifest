@@ -522,7 +522,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <project path="vendor/pa" name="tilaksidduram/android_vendor_pa-1" remote="github" revision="lollipop" >
+  <project path="vendor/pa" name="tilaksidduram/android_vendor_pa-1" remote="github" revision="lollipop-mr1" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
