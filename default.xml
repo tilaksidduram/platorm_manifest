@@ -18,11 +18,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="AOSPA-L/android_build" >
+  <project path="build" name="tilaksidduram/android_build" remote="github" revision="lollipop-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="manifest" name="tilaksidduram/platorm_manifest" />
+  <project path="manifest" name="tilaksidduram/platorm_manifest" remote="github" revision="lollipop-mr1" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="AOSPA-L/android_art" groups="pdk" />
