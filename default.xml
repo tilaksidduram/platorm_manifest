@@ -530,5 +530,6 @@
   <!--Extra repos -->
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
   <project path="packages/apps/OTAUpdates" name="Kryten2k35/OTAUpdates" remote="github" revision="aosp" />
+  <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="github" revision="cm-12.1" />
 
 </manifest>
