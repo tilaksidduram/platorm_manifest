@@ -309,7 +309,7 @@
   <project path="frameworks/opt/bluetooth" name="AOSPA-L/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="AOSPA-L/android_frameworks_opt_calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/opt/chips" name="AOSPA-L/android_frameworks_opt_chips" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/datetimepicker" name="AOSPA-L/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" remote="aosp" />
@@ -411,7 +411,7 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" remote="aosp" />
+  <project path="packages/apps/Mms" name="AOSPA-L/android_packages_apps_Mms" />
   <project path="packages/apps/Nfc" name="AOSPA-L/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" />
