@@ -23,6 +23,7 @@
   </project>
 
   <project path="manifest" name="tilaksidduram/platorm_manifest" remote="github" revision="lollipop-mr1" />
+  <project path="aospal" name="AOSPA-L/aospal" revision="master" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="AOSPA-L/android_art" groups="pdk" />
