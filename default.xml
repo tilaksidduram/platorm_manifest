@@ -412,7 +412,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" />
   <project path="packages/apps/InCallUI" name="AOSPA-L/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" />
+  <project path="packages/apps/Launcher3" name="AOSPA-L/android_packages_apps_Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" />
   <project path="packages/apps/Mms" name="AOSPA-L/android_packages_apps_Mms" />
