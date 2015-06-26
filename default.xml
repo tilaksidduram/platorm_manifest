@@ -429,7 +429,7 @@
   <project path="packages/apps/Stk" name="AOSPA-L/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="AOSPA-L/android_packages_apps_Tag" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" remote="aosp" />
+  <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" remote="github" revision="cm-12.1" />
   <project path="packages/apps/UnifiedEmail" name="AOSPA-L/android_packages_apps_UnifiedEmail" />
   <project path="packages/experimental" name="AOSPA-L/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="AOSPA-L/android_packages_inputmethods_LatinIME" />
