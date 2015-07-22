@@ -541,5 +541,6 @@
   <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" remote="github" revision="master" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" remote="github" revision="master" />
   <project path="frameworks/opt/cards" name="tilaksidduram/frameworks_opt_cards" remote="github" revision="lollipop-mr1" />
+  <project path="packages/apps/WallpaperPicker" name="temasek/packages_apps_WallpaperPicker" remote="github" revision="lp5.1" />
 
 </manifest>
