@@ -450,7 +450,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" />
   <project path="packages/services/Mms" name="AOSPA-L/android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="AOSPA-L/android_packages_services_Telecomm" />
+  <project path="packages/services/Telecomm" name="tilaksidduram/android_packages_services_Telecomm" remote="github" revision="lollipop-mr1" />
   <project path="packages/services/Telephony" name="AOSPA-L/android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" />
