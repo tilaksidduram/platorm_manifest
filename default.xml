@@ -542,5 +542,6 @@
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" remote="github" revision="master" />
   <project path="frameworks/opt/cards" name="tilaksidduram/frameworks_opt_cards" remote="github" revision="lollipop-mr1" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="lollipop" />
 
 </manifest>
